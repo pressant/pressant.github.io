@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://kit.fontawesome.com/6ddaf2f39b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <div id="big-div">
+        <div id="heading">
+            <h1>Student Search</h1>
+        </div>
+    <aside id="search" >
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" >
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Roll Number</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" >
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Gender</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+              </div>
+          </div><div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Department</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" >
+          </div><div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Hometown</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          
+          <button type="button" class="btn btn-outline-secondary">Search</button>
+          
+    </aside>
+    <div id="students-cards">
+    <!-- Button trigger modal -->
+    <div id="big">
+<a href="" id="modal-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="card mb-3 student" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="dp.jpg" class="img-fluid rounded-start" >
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <p class=" zoom">
+              <span class="zoom-name" style="font-size: 20px;
+              font-weight: 700;">Prashant Sharma</span><br>
+             Branch : CSE<br>Roll Number : 211111
+            
+            </p>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+</a>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        
+        <div class="modal-body modal-radius">
+            <div id="modal-img"><img src="dp.jpg"></div>
+            <div id="modal-content">
+                <p class=" zoom">
+                    <span class="zoom-name" style="font-size: 20px;
+                    font-weight: 700;">Prashant Sharma</span><br>
+                   Branch : CSE<br>Roll Number : 211111<br>
+                   <i class="fa-solid fa-building-columns"></i> : B-560, Hall 13<br>
+                   <i class="fa-solid fa-house-chimney"></i> : Agra, Uttar Pradesh<br>
+                   <i class="fa-solid fa-droplet"></i> : AB+<br>
+                   <i class="fa-solid fa-envelope"></i> : <a href="mailto:xyz">example@iitk.ac.in</a><br>
+                   <i class="fa-solid fa-globe"></i> : <a href="iitk.ac.in">Webhome</a>
+                   
+                   <div class="accordion accordion-flush " id="accordionFlushExample">
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          IITK Family
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>
+                                Bappu: Punsukh wangadu
+                                    
+                                      <br>
+                                Dada: Raju Rastogi<br>
+                                Bhai:
+                                <ul>
+                                    <li>Rohan</li>
+                                    <li>Sohan</li>
+                                    <li>Mohan</li>
+                                    <li>Ramohan</li>
+                                    <li>Pyaremohan</li>
+                                    <li>Pretmohan</li>
+                                </ul>
+                                
+                            </p>
+                            <a href="https://iitk.ac.in/counsel/old/family_tree/index.html">View Complete Family Tree</a>
+                        </div>
+                      </div>
+                    </div>
+                </p>
+            </div>
+            
+                
+              </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div id="big">
+    <a href="" id="modal-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="card mb-3 student" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="1.jpeg" class="img-fluid rounded-start" >
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                    <p class=" zoom">
+                  <span class="zoom-name" style="font-size: 20px;
+                  font-weight: 700;">Prashant Sharma</span><br>
+                 Branch : CSE<br>Roll Number : 211111
+                
+                </p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    </a>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+          <div class="modal-content">
+            
+            <div class="modal-body modal-radius">
+                <div id="modal-img"><img src="dp.jpg"></div>
+                <div id="modal-content">
+                    <p class=" zoom">
+                        <span class="zoom-name" style="font-size: 20px;
+                        font-weight: 700;">Prashant Sharma</span><br>
+                       Branch : CSE<br>Roll Number : 211111<br>
+                       <i class="fa-solid fa-building-columns"></i> : B-560, Hall 13<br>
+                       <i class="fa-solid fa-house-chimney"></i> : Agra, Uttar Pradesh<br>
+                       <i class="fa-solid fa-droplet"></i> : AB+<br>
+                       <i class="fa-solid fa-envelope"></i> : <a href="mailto:xyz">example@iitk.ac.in</a><br>
+                       <i class="fa-solid fa-globe"></i> : <a href="iitk.ac.in">Webhome</a>
+                       
+                       <div class="accordion accordion-flush " id="accordionFlushExample">
+                        <div class="accordion-item ">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              IITK Family
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Bappu: Punsukh wangadu
+                                        
+                                          <br>
+                                    Dada: Raju Rastogi<br>
+                                    Bhai:
+                                    <ul>
+                                        <li>Rohan</li>
+                                        <li>Sohan</li>
+                                        <li>Mohan</li>
+                                        <li>Ramohan</li>
+                                        <li>Pyaremohan</li>
+                                        <li>Pretmohan</li>
+                                    </ul>
+                                    
+                                </p>
+                                <a href="https://iitk.ac.in/counsel/old/family_tree/index.html">View Complete Family Tree</a>
+                            </div>
+                          </div>
+                        </div>
+                    </p>
+                </div>
+                
+                    
+                  </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <div id="big">
+        <a href="" id="modal-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="card mb-3 student" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="2.jpeg" class="img-fluid rounded-start" >
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                        <p class=" zoom">
+                      <span class="zoom-name" style="font-size: 20px;
+                      font-weight: 700;">Prashant Sharma</span><br>
+                     Branch : CSE<br>Roll Number : 211111
+                    
+                    </p>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </a>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                
+                <div class="modal-body modal-radius">
+                    <div id="modal-img"><img src="3.jpeg"></div>
+                    <div id="modal-content">
+                        <p class=" zoom">
+                            <span class="zoom-name" style="font-size: 20px;
+                            font-weight: 700;">Prashant Sharma</span><br>
+                           Branch : CSE<br>Roll Number : 211111<br>
+                           <i class="fa-solid fa-building-columns"></i> : B-560, Hall 13<br>
+                           <i class="fa-solid fa-house-chimney"></i> : Agra, Uttar Pradesh<br>
+                           <i class="fa-solid fa-droplet"></i> : AB+<br>
+                           <i class="fa-solid fa-envelope"></i> : <a href="mailto:xyz">example@iitk.ac.in</a><br>
+                           <i class="fa-solid fa-globe"></i> : <a href="iitk.ac.in">Webhome</a>
+                           
+                           <div class="accordion accordion-flush " id="accordionFlushExample">
+                            <div class="accordion-item ">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  IITK Family
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Bappu: Punsukh wangadu
+                                            
+                                              <br>
+                                        Dada: Raju Rastogi<br>
+                                        Bhai:
+                                        <ul>
+                                            <li>Rohan</li>
+                                            <li>Sohan</li>
+                                            <li>Mohan</li>
+                                            <li>Ramohan</li>
+                                            <li>Pyaremohan</li>
+                                            <li>Pretmohan</li>
+                                        </ul>
+                                        
+                                    </p>
+                                    <a href="https://iitk.ac.in/counsel/old/family_tree/index.html">View Complete Family Tree</a>
+                                </div>
+                              </div>
+                            </div>
+                        </p>
+                    </div>
+                    
+                        
+                      </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+          <div id="big">
+            <a href="" id="modal-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card mb-3 student" >
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="4.jpeg" class="img-fluid rounded-start" >
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                            <p class=" zoom">
+                          <span class="zoom-name" style="font-size: 20px;
+                          font-weight: 700;">Prashant Sharma</span><br>
+                         Branch : CSE<br>Roll Number : 211111
+                        
+                        </p>
+                          
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </a>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                    
+                    <div class="modal-body modal-radius">
+                        <div id="modal-img"><img src="5.jpeg"></div>
+                        <div id="modal-content">
+                            <p class=" zoom">
+                                <span class="zoom-name" style="font-size: 20px;
+                                font-weight: 700;">Prashant Sharma</span><br>
+                               Branch : CSE<br>Roll Number : 211111<br>
+                               <i class="fa-solid fa-building-columns"></i> : B-560, Hall 13<br>
+                               <i class="fa-solid fa-house-chimney"></i> : Agra, Uttar Pradesh<br>
+                               <i class="fa-solid fa-droplet"></i> : AB+<br>
+                               <i class="fa-solid fa-envelope"></i> : <a href="mailto:xyz">example@iitk.ac.in</a><br>
+                               <i class="fa-solid fa-globe"></i> : <a href="iitk.ac.in">Webhome</a>
+                               
+                               <div class="accordion accordion-flush " id="accordionFlushExample">
+                                <div class="accordion-item ">
+                                  <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                      IITK Family
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Bappu: Punsukh wangadu
+                                                
+                                                  <br>
+                                            Dada: Raju Rastogi<br>
+                                            Bhai:
+                                            <ul>
+                                                <li>Rohan</li>
+                                                <li>Sohan</li>
+                                                <li>Mohan</li>
+                                                <li>Ramohan</li>
+                                                <li>Pyaremohan</li>
+                                                <li>Pretmohan</li>
+                                            </ul>
+                                            
+                                        </p>
+                                        <a href="https://iitk.ac.in/counsel/old/family_tree/index.html">View Complete Family Tree</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </p>
+                        </div>
+                        
+                            
+                          </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              </div>
+
+
+
+              <div id="big">
+                <a href="" id="modal-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="card mb-3 student" >
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="dp.jpg" class="img-fluid rounded-start" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                                <p class=" zoom">
+                              <span class="zoom-name" style="font-size: 20px;
+                              font-weight: 700;">Prashant Sharma</span><br>
+                             Branch : CSE<br>Roll Number : 211111
+                            
+                            </p>
+                              
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog ">
+                      <div class="modal-content">
+                        
+                        <div class="modal-body modal-radius">
+                            <div id="modal-img"><img src="dp.jpg"></div>
+                            <div id="modal-content">
+                                <p class=" zoom">
+                                    <span class="zoom-name" style="font-size: 20px;
+                                    font-weight: 700;">Prashant Sharma</span><br>
+                                   Branch : CSE<br>Roll Number : 211111<br>
+                                   <i class="fa-solid fa-building-columns"></i> : B-560, Hall 13<br>
+                                   <i class="fa-solid fa-house-chimney"></i> : Agra, Uttar Pradesh<br>
+                                   <i class="fa-solid fa-droplet"></i> : AB+<br>
+                                   <i class="fa-solid fa-envelope"></i> : <a href="mailto:xyz">example@iitk.ac.in</a><br>
+                                   <i class="fa-solid fa-globe"></i> : <a href="iitk.ac.in">Webhome</a>
+                                   
+                                   <div class="accordion accordion-flush " id="accordionFlushExample">
+                                    <div class="accordion-item ">
+                                      <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                          IITK Family
+                                        </button>
+                                      </h2>
+                                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Bappu: Punsukh wangadu
+                                                    
+                                                      <br>
+                                                Dada: Raju Rastogi<br>
+                                                Bhai:
+                                                <ul>
+                                                    <li>Rohan</li>
+                                                    <li>Sohan</li>
+                                                    <li>Mohan</li>
+                                                    <li>Ramohan</li>
+                                                    <li>Pyaremohan</li>
+                                                    <li>Pretmohan</li>
+                                                </ul>
+                                                
+                                            </p>
+                                            <a href="https://iitk.ac.in/counsel/old/family_tree/index.html">View Complete Family Tree</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </p>
+                            </div>
+                            
+                                
+                              </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+
+                  <div id="big">
+                    <a href="" id="modal-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card mb-3 student" >
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="dp.jpg" class="img-fluid rounded-start" >
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class=" zoom">
+                                  <span class="zoom-name" style="font-size: 20px;
+                                  font-weight: 700;">Prashant Sharma</span><br>
+                                 Branch : CSE<br>Roll Number : 211111
+                                
+                                </p>
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </a>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog ">
+                          <div class="modal-content">
+                            
+                            <div class="modal-body modal-radius">
+                                <div id="modal-img"><img src="dp.jpg"></div>
+                                <div id="modal-content">
+                                    <p class=" zoom">
+                                        <span class="zoom-name" style="font-size: 20px;
+                                        font-weight: 700;">Prashant Sharma</span><br>
+                                       Branch : CSE<br>Roll Number : 211111<br>
+                                       <i class="fa-solid fa-building-columns"></i> : B-560, Hall 13<br>
+                                       <i class="fa-solid fa-house-chimney"></i> : Agra, Uttar Pradesh<br>
+                                       <i class="fa-solid fa-droplet"></i> : AB+<br>
+                                       <i class="fa-solid fa-envelope"></i> : <a href="mailto:xyz">example@iitk.ac.in</a><br>
+                                       <i class="fa-solid fa-globe"></i> : <a href="iitk.ac.in">Webhome</a>
+                                       
+                                       <div class="accordion accordion-flush " id="accordionFlushExample">
+                                        <div class="accordion-item ">
+                                          <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                              IITK Family
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Bappu: Punsukh wangadu
+                                                        
+                                                          <br>
+                                                    Dada: Raju Rastogi<br>
+                                                    Bhai:
+                                                    <ul>
+                                                        <li>Rohan</li>
+                                                        <li>Sohan</li>
+                                                        <li>Mohan</li>
+                                                        <li>Ramohan</li>
+                                                        <li>Pyaremohan</li>
+                                                        <li>Pretmohan</li>
+                                                    </ul>
+                                                    
+                                                </p>
+                                                <a href="https://iitk.ac.in/counsel/old/family_tree/index.html">View Complete Family Tree</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </p>
+                                </div>
+                                
+                                    
+                                  </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+
+
+
+                      <var>
+                        
+                      </var>
+  
+  
+    </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

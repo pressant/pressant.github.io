@@ -1,0 +1,91 @@
+#heading{
+    display:flex;
+    justify-content: center;
+    margin: 10px;
+    /* border: 2px solid blue; */
+    position: fixed;
+    left:18px;
+    border-left:6px solid darkblue;
+    border-bottom: 2px solid darkblue;
+    
+}
+#big-div{
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+#big{
+    width:370px;
+    height:200px;
+
+}
+
+#modal-link{
+    text-decoration: none;
+    color: black;
+}
+#search{
+    height: 84vh;
+    width:25vw;
+    border:1px solid black;
+    display: inline-block;
+    margin:10px;
+    margin-top: 80px;
+    position: fixed;
+    padding: 10px;
+    /* top:55px; */
+}
+
+#students-cards{
+    position: absolute;
+    top:55px;
+    right: 35px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    /* column-gap: 40px; */
+    margin:20px;
+    margin-top:55px;
+    width:60%;
+}
+.student{
+    width: 350px;
+    height: 138px;
+    border:2px solid black;
+    transition: 0.2s ease-in-out ;
+}
+.student img{
+    height:133.7px;
+}
+.student:hover{
+    width: 360px;
+    border:2px solid darkgray;
+}
+#modal-img{
+    display: inline-block;
+}
+#modal-img img{
+width:200px;
+height:210px;
+border-top-left-radius: 20%;
+border-top-right-radius: 20%;
+border-bottom-left-radius: 20%;
+border-bottom-right-radius: 20%;
+
+}
+.modal-radius{
+    display: flex;
+    align-items: center;
+}
+#modal-content{
+    margin-left:20px;
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+
+
+
+
